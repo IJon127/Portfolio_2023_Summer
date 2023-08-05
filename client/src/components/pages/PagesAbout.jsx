@@ -11,7 +11,8 @@ function PagesAbout() {
   const [about, setAbout] = useState([]);
 
   const fetchAbout = async () => {
-    fetch("http://localhost:5000/api/about")
+    // fetch("http://localhost:5500/api/about")
+    fetch("/api/about")
       .then((res) => res.json())
       .then((resData) => {
         setAbout(resData.data.about);

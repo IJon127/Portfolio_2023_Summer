@@ -14,12 +14,14 @@ function PagesHome() {
   const [works, setWorks] = useState([]);
   const [playground, setPlayground] = useState([]);
   const [about, setAbout] = useState([]);
-
+  /*
   const apiUrls = [
-    "http://localhost:5000/api/works",
-    "http://localhost:5000/api/playground",
-    "http://localhost:5000/api/about",
+    "http://localhost:5500/api/works",
+    "http://localhost:5500/api/playground",
+    "http://localhost:5500/api/about",
   ];
+  */
+  const apiUrls = ["/api/works", "/api/playground", "/api/about"];
 
   const checkStatus = (response) => {
     if (response.ok) {

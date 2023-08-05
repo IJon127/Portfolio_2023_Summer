@@ -11,7 +11,8 @@ function PagesWorks() {
   const [works, setWorks] = useState([]);
 
   const fetchWorks = async () => {
-    fetch("http://localhost:5000/api/works")
+    // fetch("http://localhost:5500/api/works")
+    fetch("/api/works")
       .then((res) => res.json())
       .then((resData) => {
         setWorks(resData.data.works);

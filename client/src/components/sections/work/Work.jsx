@@ -16,7 +16,8 @@ function Work() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/works/${workName}`)
+    // fetch(`http://localhost:5500/api/works/${workName}`)
+    fetch(`/api/works/${workName}`)
       .then((res) => res.json())
       .then((resData) => {
         setWork(resData.data.work);
