@@ -1,0 +1,25 @@
+.works-list {
+  width: 100%;
+}
+
+.works-list__notebook-top {
+  width: 100%;
+  padding-top: 18%;
+  background-size: cover;
+}
+.works-list__notebook-bottom {
+  width: 100%;
+  background-color: #ededed;
+  padding-bottom: 200px;
+}
+
+.works-list__container {
+  padding-top: 20px;
+  max-width: 950px;
+  margin: auto;
+}
+@media only screen and (max-width: 1024px) {
+  .works-list__notebook-bottom {
+    padding-bottom: 14vw;
+  }
+}

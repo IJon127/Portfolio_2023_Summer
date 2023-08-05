@@ -1,0 +1,29 @@
+.nav-burger {
+  right: 1px;
+  mix-blend-mode: multiply;
+  background-color: #ffffff;
+  padding: 70px 50px 50px 50px;
+}
+
+.nav-burger__lines {
+  width: 25px;
+  height: 25px;
+}
+
+.nav-burger__line {
+  width: 25px;
+  height: 1px;
+  background-color: #000000;
+}
+
+@media only screen and (min-width: 427px) and (max-width: 768px) {
+  .nav-burger {
+    padding: 60px 40px 35px 40px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .nav-burger {
+    padding: 50px 30px 30px 30px;
+  }
+}

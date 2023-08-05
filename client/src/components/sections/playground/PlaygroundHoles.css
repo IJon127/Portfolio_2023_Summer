@@ -1,0 +1,14 @@
+.playground-holes {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.playground-holes__single-hole {
+  width: 1vw;
+  height: 1.5vw;
+  background-color: #ededed;
+  border-radius: 0.2vw;
+  box-shadow: inset 5px 5px 5px #ababab;
+  /* border: red solid 1px; */
+}

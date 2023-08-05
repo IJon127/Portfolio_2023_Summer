@@ -1,0 +1,14 @@
+.about-item__container {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.about-item__title {
+  margin-bottom: 2px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.about-item__container p {
+  width: 100%;
+  text-align: center;
+}

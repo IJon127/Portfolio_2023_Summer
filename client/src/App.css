@@ -1,0 +1,29 @@
+.app {
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  padding: 35vh 0px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.para {
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 426px) {
+  .readMore-btn {
+    font-size: 16px;
+  }
+  .app__main {
+    padding-top: 140px;
+  }
+}

@@ -1,0 +1,47 @@
+.work__folder {
+  border-radius: 1vw;
+  box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.5),
+    inset 3px 3px 3px rgba(255, 255, 255, 0.7),
+    inset -3px -3px 3px rgba(0, 0, 0, 0.4);
+  padding: 1vw;
+  margin-top: 160px;
+}
+.work__folder-inner {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 4vw;
+}
+
+.work__folder-rings {
+  width: 100%;
+  padding-top: 18%;
+  background-size: cover;
+}
+
+.work__heroImg {
+  background-color: #eeeeee;
+  box-shadow: 3px 0px 1.3vw rgba(0, 0, 0, 0.3);
+  border: 1vw white solid;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .work__folder {
+    margin-top: 130px;
+  }
+}
+
+@media only screen and (min-width: 427px) and (max-width: 768px) {
+  .work__folder {
+    box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.5),
+      inset 2px 2px 2px rgba(255, 255, 255, 0.7),
+      inset -2px -2px 2px rgba(0, 0, 0, 0.4);
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .work__folder {
+    box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.5),
+      inset 1px 1px 1px rgba(255, 255, 255, 0.7),
+      inset -1px -1px 1px rgba(0, 0, 0, 0.4);
+    margin-top: 45px;
+  }
+}

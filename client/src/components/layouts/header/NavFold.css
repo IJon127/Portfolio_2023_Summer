@@ -1,0 +1,16 @@
+.nav-fold {
+  padding: 50px;
+}
+
+.nav-fold__container {
+  display: flex;
+  flex-direction: column;
+}
+.nav-fold__btn {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.nav-fold__btn:hover {
+  scale: 1.2;
+}

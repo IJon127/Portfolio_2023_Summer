@@ -1,0 +1,17 @@
+.edge {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media only screen and (min-width: 427px) and (max-width: 768px) {
+  .edge {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 426px) {
+  .edge {
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+}

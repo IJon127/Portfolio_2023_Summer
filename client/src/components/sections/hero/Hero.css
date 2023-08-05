@@ -1,0 +1,45 @@
+.hero {
+  padding-top: 20vh;
+  overflow: hidden;
+  min-height: 100vh;
+}
+.hero__text-box {
+  width: 100%;
+  max-width: 1024px;
+  overflow: hidden;
+}
+
+.hero__hero-text {
+  font-size: 6.6em;
+}
+
+.hero__arrow {
+  width: 100%;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 60px;
+}
+@media only screen and (min-width: 831px) and (max-width: 1060px) {
+  .hero__text {
+    font-size: 1.8em;
+  }
+  .hero__hero-text {
+    font-size: 5em;
+  }
+}
+@media only screen and (min-width: 427px) and (max-width: 830px) {
+  .hero__text {
+    font-size: 1.5em;
+  }
+  .hero__hero-text {
+    font-size: 4.5em;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .hero__text {
+    font-size: 1.2em;
+  }
+  .hero__hero-text {
+    font-size: 4em;
+  }
+}

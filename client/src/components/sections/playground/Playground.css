@@ -1,0 +1,9 @@
+.playground {
+  width: 100%;
+  background-color: #ededed;
+  overflow-x: hidden;
+  padding-top: 4vw;
+  padding-bottom: 21vw;
+  margin-bottom: -5vw;
+  z-index: -1;
+}

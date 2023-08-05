@@ -1,0 +1,32 @@
+.work-info__title {
+  text-align: center;
+  line-height: 120%;
+}
+.work-info__subtitle {
+  margin-bottom: 1em;
+  text-align: center;
+  line-height: 150%;
+}
+.work-info__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.work-info__content p {
+  font-style: italic;
+  line-height: 125%;
+}
+@media only screen and (min-width: 427px) and (max-width: 768px) {
+  .work-info__content p {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .work-info__content p {
+    font-size: 0.6em;
+  }
+  .work-info__subtitle {
+    margin-bottom: 0.7em;
+  }
+}

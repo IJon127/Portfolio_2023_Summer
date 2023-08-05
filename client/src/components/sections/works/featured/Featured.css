@@ -1,0 +1,16 @@
+.featured {
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  overflow: clip;
+}
+.featured__folder-top {
+  width: 100%;
+  padding-top: 18%;
+  background-size: cover;
+}
+.featured__folder-bottom {
+  width: 100%;
+  margin-top: -1px;
+  height: 100vh;
+}

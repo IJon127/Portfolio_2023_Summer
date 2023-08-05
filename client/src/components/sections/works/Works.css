@@ -1,0 +1,12 @@
+.works {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.works__featureds {
+  width: 100%;
+}
+.works__others {
+  position: sticky;
+  top: 0;
+}

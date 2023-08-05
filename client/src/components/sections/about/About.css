@@ -1,0 +1,21 @@
+.about {
+  width: 100%;
+  position: relative;
+}
+
+.about-board {
+  width: 100%;
+  background-color: grey;
+  padding: 8vw;
+  box-shadow: 5px 5px 6px #ababab, inset 5px 5px 3px #ababab,
+    inset -5px -5px 3px #555555;
+  border-radius: 5vw;
+}
+
+.about-clip {
+  width: 50vw;
+  position: absolute;
+  top: 2vw;
+  left: 50%;
+  transform: translateX(-50%);
+}

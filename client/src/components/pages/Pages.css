@@ -1,0 +1,53 @@
+.pages__title {
+  font-size: 5em;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  font-weight: 400;
+}
+.pages__content {
+  padding-top: 250px;
+}
+.pages-works__bottom {
+  height: 50px;
+  border-radius: 0 0 50px 50px;
+  background-color: #ededed;
+  box-shadow: 0 2px #ffffff, 0 3px #bbbbbb, 0 5px #ffffff, 0 6px #bbbbbb,
+    0 8px #ffffff, 0 9px #bbbbbb, 0 11px #ffffff, 0 12px #bbbbbb, 0 14px #ffffff,
+    0 15px #bbbbbb, 0 17px #ffffff, 0 18px #bbbbbb, 0 20px #ffffff,
+    0 21px #bbbbbb, 0 23px #ffffff, 0 24px #bbbbbb,
+    5px 32px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .pages__title {
+    font-size: 4em;
+  }
+
+  .pages__content {
+    padding-top: 200px;
+  }
+}
+@media only screen and (min-width: 427px) and (max-width: 768px) {
+  .pages__title {
+    font-size: 4em;
+  }
+  .pages__content {
+    padding-top: 200px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .pages__title {
+    font-size: 3em;
+  }
+
+  .pages__content {
+    padding-top: 150px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .pages-works__bottom {
+    border-radius: 0 0 4vw 4vw;
+  }
+}

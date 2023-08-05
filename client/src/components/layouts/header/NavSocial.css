@@ -1,0 +1,17 @@
+.nav-social {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.nav-social-btn {
+  align-self: center;
+  width: 25px;
+}
+.nav-social-btn img {
+  width: 100%;
+}
+.nav-social-btn:hover {
+  scale: 1.2;
+}
