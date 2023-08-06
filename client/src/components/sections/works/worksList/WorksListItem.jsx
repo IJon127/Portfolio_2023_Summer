@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { isMobile } from "react-device-detect";
 import { motion, AnimatePresence } from "framer-motion";
 import "./WorksListItem.css";
 import PictureBox from "../../../ui/PictureBox.jsx";
@@ -20,22 +21,24 @@ function WorksListItem({ work }) {
         <h1 className="works-list-item__title">{work.info.title}</h1>
         <h3 className="works-list-item__type">{work.info.type}</h3>
       </motion.div>
-      <AnimatePresence>
-        {isHover ? (
-          <motion.div
-            className="works-list-item__img"
-            initial={{ scale: 0, y: 0, rotate: -5 }}
-            animate={{ scale: 1, y: "-55%", rotate: 5 }}
-            exit={{ scale: 0, y: 0, rotate: -5 }}
-          >
-            <PictureBox
-              aspectRatio="3/2"
-              img={`/images/projects/${work.name}/${work.thumbnail}`}
-              alt={work.name}
-            />
-          </motion.div>
-        ) : null}
-      </AnimatePresence>
+      {!isMobile && (
+        <AnimatePresence>
+          {isHover ? (
+            <motion.div
+              className="works-list-item__img"
+              initial={{ scale: 0, y: 0, rotate: -5 }}
+              animate={{ scale: 1, y: "-55%", rotate: 5 }}
+              exit={{ scale: 0, y: 0, rotate: -5 }}
+            >
+              <PictureBox
+                aspectRatio="3/2"
+                img={`/images/projects/${work.name}/${work.thumbnail}`}
+                alt={work.name}
+              />
+            </motion.div>
+          ) : null}
+        </AnimatePresence>
+      )}
     </motion.a>
   );
 }
