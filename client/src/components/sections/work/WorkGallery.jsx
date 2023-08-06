@@ -14,7 +14,7 @@ function WorkGallery({ work, gallery }) {
             alt={work}
             className="work-gallery__img"
             style={{
-              top: `${randomVar(40, 60, "%")}`,
+              top: `${randomVar(30, 70, "%")}`,
               left: `${randomVar(30, 70, "%")}`,
               rotate: `${randomVar(-15, 15, "deg")}`,
             }}
