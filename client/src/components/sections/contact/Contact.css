@@ -38,10 +38,19 @@
 .contact__stamp {
   width: 80%;
 }
-
 .contact__to {
   width: 100%;
 }
+.contact__to h2 {
+  font-weight: 400;
+}
+.contact__validation-container {
+  margin-top: 15px;
+}
+.contact__sent-message {
+  margin-top: 15px;
+}
+
 @media only screen and (max-width: 768px) {
   .contact__container {
     flex-direction: column-reverse;

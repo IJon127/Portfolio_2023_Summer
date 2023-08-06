@@ -5,7 +5,7 @@ body {
   margin: 0;
   position: relative;
   scroll-behavior: smooth;
-  font-weight: 200;
+  font-weight: 300;
   color: #333;
   border-color: #333;
   box-sizing: border-box;
@@ -39,15 +39,14 @@ h3 {
 h4 {
   font-size: 1.2em;
 }
-p {
+p,
+label,
+button,
+ul,
+ol {
   font-size: 1.2em;
 }
-label {
-  font-size: 1.2em;
-}
-button {
-  font-size: 1.2em;
-}
+
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   h1 {
     font-size: 3em;
@@ -61,13 +60,11 @@ button {
   h4 {
     font-size: 1em;
   }
-  p {
-    font-size: 1em;
-  }
-  label {
-    font-size: 1em;
-  }
-  button {
+  p,
+  label,
+  button,
+  ul,
+  ol {
     font-size: 1em;
   }
 }
@@ -84,13 +81,11 @@ button {
   h4 {
     font-size: 1em;
   }
-  p {
-    font-size: 1em;
-  }
-  label {
-    font-size: 1em;
-  }
-  button {
+  p,
+  label,
+  button,
+  ul,
+  ol {
     font-size: 1em;
   }
 }
@@ -108,13 +103,11 @@ button {
   h4 {
     font-size: 0.8em;
   }
-  p {
-    font-size: 0.8em;
-  }
-  label {
-    font-size: 0.8em;
-  }
-  button {
+  p,
+  label,
+  button,
+  ul,
+  ol {
     font-size: 0.8em;
   }
 }
