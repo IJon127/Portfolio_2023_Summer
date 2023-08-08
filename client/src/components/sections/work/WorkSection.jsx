@@ -19,7 +19,7 @@ function WorkSection({ workName, section }) {
         <ul className="work-section__ul">
           {section.lists.map((list) => (
             <li className="para" key={list}>
-              {"• " + list}
+              {list}
             </li>
           ))}
         </ul>
@@ -35,6 +35,13 @@ function WorkSection({ workName, section }) {
         <img
           className="work-section__diagram"
           src={`/images/projects/${workName}/${section.diagram}`}
+          alt={workName}
+        />
+      )}
+      {section.photo && (
+        <img
+          className="work-section__photo"
+          src={`/images/projects/${workName}/${section.photo}`}
           alt={workName}
         />
       )}

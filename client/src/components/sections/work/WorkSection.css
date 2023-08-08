@@ -3,11 +3,12 @@
 }
 .work-section__title-subtitle {
   margin-bottom: 20px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .work-section__ul {
-  list-style-type: disc;
+  display: table;
+  margin-left: 1em;
 }
 
 .work-section__video {
@@ -21,4 +22,18 @@
   max-width: 900px;
   object-fit: contain;
   margin-top: 40px;
+}
+.work-section__photo {
+  width: 100%;
+  max-width: 900px;
+  object-fit: contain;
+  margin-top: 40px;
+  border: #dddddd 12px solid;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 1000px) {
+  .work-section__photo {
+    border-width: 1.2vw;
+  }
 }
