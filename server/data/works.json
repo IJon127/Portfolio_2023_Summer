@@ -26,6 +26,166 @@
         "diagram": null,
         "photo": null,
         "video": "https://player.vimeo.com/video/838071093?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+      },
+      {
+        "title": "Hedonomic VR Design",
+        "subtitle": null,
+        "paragraphs": [
+          "This project embodies the Hedonomic VR design principles, crafted by the Meta Reality Lab. Rooted in the concept of hedonomics, a specialized branch of ergonomics, this approach is dedicated to elevating human-computer interactions by promoting delightful experiences. At the core of this design philosophy lies the Hedonic Pyramid, a five-stage framework (safety, functionality, usability, pleasure, and individuation) that sets the foundation for an extraordinary virtual reality journey."
+        ],
+        "lists": null,
+        "diagram": "02.png",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": "Safety",
+        "paragraphs": [
+          "The Hedonomic Yeshi project prioritizes user safety and comfort within the virtual realm. Virtual Reality can create an illusion of self-extinction, affecting how our brain perceives virtual threats as real threats. To establish a safe virtual space, several key measures are employed:"
+        ],
+        "lists": [
+          "Proxemics to Define Virtual Space",
+          "Establishing Behavior Expectations",
+          "User-defined Preferences",
+          "Clear Communication of Consent",
+          "Quick-action Remediation Tools"
+        ],
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "Upon entering the Hedonomic Yeshi, players acknowledge the rules for a safe and respectful virtual environment. They can also adjust preferences and easily exit the game from the main menu, enhancing their sense of control and well-being."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": "03.jpg",
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": "Function",
+        "paragraphs": [
+          "The second stage, Function, focuses on seamlessly integrating all VR interactions and features to create an intuitive and responsive virtual environment. Empowering users to effortlessly navigate and engage with the digital world, the functional system allows them to achieve their desired goals, fostering a sense of trust in its stability, predictability, and safety.",
+          "In the VR world, achieving functionality means adhering to key principles:"
+        ],
+        "lists": [
+          "Adding Consistent Value",
+          "Informing Users of Behavioral Effects",
+          "Transparent Attention Requests",
+          "Full Personal Data Disclosure",
+          "Visibility into System Mechanisms"
+        ],
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "To align with the project's focus on promoting Asian market culture, the interactions within the Hedonomic Yeshi game are designed to mimic real-world situations. Following real physics principles, all items and interactions are easy for players to understand and engage with, enhancing their sense of immersion and realism.",
+          "Moreover, the game offers users the convenience of tracking their time spent within the virtual realm through the menu. This feature allows players to be mindful of their engagement and enables them to manage their virtual experiences effectively."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": "04.jpg",
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": "Usabilty",
+        "paragraphs": [
+          "At the core of the Hedonic Pyramid lies the third stage, usability, which embraces empathetic and user-centric design. This pivotal stage is devoted to crafting an interface that is not only efficient but also mindful of users' needs, ensuring seamless interactions and an enjoyable journey within the virtual realm. The following key elements are incorporated to achieve a truly usable and delightful experience:"
+        ],
+        "lists": [
+          "Avoiding Unnatural Sensations",
+          "Comfortable Panel Placement",
+          "Easy-to-Execute Gestures",
+          "Accessible Inputs",
+          "Clear Feedback in Interactions"
+        ],
+        "diagram": "05.svg",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "The implementation of usability principles in the project is thoughtfully executed:"
+        ],
+        "lists": [
+          "Optimal UI Placement: The user interface elements are strategically positioned within the range of 0.5 to 3.5 meters, ensuring easy visibility and interaction.",
+          "Comfortable Menu Angle: The main menu is tilted 15 degrees to match the user's comfortable vision angle, enhancing the overall comfort and usability of the interface.",
+          "Customizable Teleport Options: Teleportation options are provided in the settings, allowing users to tailor their preferences for navigation and locomotion.",
+          "Stationary Game Navigation: Users have the flexibility to navigate the game as a stationary experience by using the vendor/map feature in the menu, enabling seamless transportation between locations."
+        ],
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": "Pleasure",
+        "paragraphs": [
+          "The fourth stage, pleasure, is a captivating realm of sensory delight within the virtual environment. It enchants users with captivating visuals, immersive audio, and a harmonious blend of stimuli. By invoking positive emotions and fostering engagement, this stage amplifies the joy of exploration, making the virtual experience truly enchanting.",
+          "In VR, aesthetics are paramount, and they follow the principles of general graphic design with an additional focus on preventing cognitive load and eye strain. The following strategies are employed to achieve this:"
+        ],
+        "lists": [
+          "Using Multiple Small Panels and Avoiding One Huge Panel",
+          "Using Natural Colors and Avoiding White or Bright Colors",
+          "Device-Appropriate Typeface Sizes",
+          "Simplifying Communication by Semiotic Model"
+        ],
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "In execution, these principles are thoughtfully integrated into the design:"
+        ],
+        "lists": [
+          "Separation of Main Menu and Player's Stats: The main menu and player's stats are separated to provide a clear and uncluttered interface, enhancing user engagement and focus.",
+          "Icons and Images Over Text: Visual clutter is avoided by using icons and images instead of text, streamlining the user experience and facilitating quick comprehension.",
+          "Appropriate Font Size: Fonts are set at least 20 mm per meter away, ensuring readability without causing eye strain during prolonged VR use.",
+          "Neon-Themed Design: A neon color theme and dark background are employed to create a vivid night atmosphere, immersing users in an enthralling visual experience."
+        ],
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": "Individuation",
+        "paragraphs": [
+          "Finally, at the pinnacle of the Hedonic Pyramid, lies individuation, where personalized experiences take center stage. Tailoring the virtual journey to cater to each user's unique preferences, interests, and desires, this stage ensures that no two experiences are alike, forging a deep and lasting connection between the user and the virtual realm.",
+          "By providing users with the opportunity to link their meta avatar to the game, the Hedonic Yeshi project embraces individuality, fostering a truly immersive and meaningful experience for each user."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "Credits",
+        "subtitle": null,
+        "paragraphs": null,
+        "lists": [
+          "Meta Reality Labs",
+          "Michelle Cortese",
+          "Hancock, Peter & Pepe, Aaron & Murphy, Lauren. (2005). Hedonomics: The Power of Positive and Pleasurable Ergonomics. Ergonomics in Design: The Quarterly of Human Factors Applications. 13. 8-14. 10.1177/106480460501300104. "
+        ],
+        "diagram": null,
+        "photo": null,
+        "video": null
       }
     ]
   },
