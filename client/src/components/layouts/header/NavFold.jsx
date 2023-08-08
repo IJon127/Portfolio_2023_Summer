@@ -37,7 +37,10 @@ function NavFold({ setNavFoldOpen }) {
             className="nav-fold__btn"
             key={index}
             to={navBtn.link}
-            onClick={() => setNavFoldOpen(false)}
+            onClick={() => {
+              setNavFoldOpen(false);
+              window.scrollTo(0, 0);
+            }}
           >
             {navBtn.name}
           </NavLink>
