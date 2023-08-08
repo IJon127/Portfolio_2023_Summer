@@ -34,7 +34,7 @@
           "This project embodies the Hedonomic VR design principles, crafted by the Meta Reality Lab. Rooted in the concept of hedonomics, a specialized branch of ergonomics, this approach is dedicated to elevating human-computer interactions by promoting delightful experiences. At the core of this design philosophy lies the Hedonic Pyramid, a five-stage framework (safety, functionality, usability, pleasure, and individuation) that sets the foundation for an extraordinary virtual reality journey."
         ],
         "lists": null,
-        "diagram": "02.png",
+        "diagram": "02.svg",
         "photo": null,
         "video": null
       },
@@ -126,7 +126,7 @@
           "Stationary Game Navigation: Users have the flexibility to navigate the game as a stationary experience by using the vendor/map feature in the menu, enabling seamless transportation between locations."
         ],
         "diagram": null,
-        "photo": null,
+        "photo": "06.jpg",
         "video": null
       },
       {
@@ -143,7 +143,7 @@
           "Simplifying Communication by Semiotic Model"
         ],
         "diagram": null,
-        "photo": null,
+        "photo": "07.jpg",
         "video": null
       },
       {
