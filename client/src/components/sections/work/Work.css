@@ -1,3 +1,6 @@
+.work {
+  overflow-x: clip;
+}
 .work__folder {
   border-radius: 1vw;
   box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.5),

@@ -49,7 +49,7 @@ function Work() {
         </div>
       )}
       {!loading && (
-        <div>
+        <div className="work">
           <WorkInfo info={work.info} />
           <div
             className="work__folder"
