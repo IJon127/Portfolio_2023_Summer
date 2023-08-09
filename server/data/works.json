@@ -143,7 +143,7 @@
           "Simplifying Communication by Semiotic Model"
         ],
         "diagram": null,
-        "photo": "07.jpg",
+        "photo": null,
         "video": null
       },
       {
@@ -159,7 +159,7 @@
           "Neon-Themed Design: A neon color theme and dark background are employed to create a vivid night atmosphere, immersing users in an enthralling visual experience."
         ],
         "diagram": null,
-        "photo": null,
+        "photo": "07.jpg",
         "video": null
       },
       {
@@ -171,6 +171,15 @@
         ],
         "lists": null,
         "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "User Flow",
+        "subtitle": null,
+        "paragraphs": null,
+        "lists": null,
+        "diagram": "08.svg",
         "photo": null,
         "video": null
       },
@@ -208,16 +217,82 @@
         "title": null,
         "subtitle": null,
         "paragraphs": [
-          "This project involves the redesign of the official website for Famwood, a company that transitioned from being a furniture company to specializing in tiny house construction. Additionally, they operate a restaurant named OnOnNature. Prior to this redesign, Famwood had separate websites for each of its business ventures. The primary objective of this redesign is to consolidate these websites into a unified platform, streamlining the user experience and bringing together all aspects of the company under one digital presence. "
+          "This undertaking involves a thorough renovation of Famwood's official website. The company has recently undergone a transformation, shifting from its initial focus on furniture sales to emerging as a specialized authority in the construction of tiny houses, alongside its management of the OnOnNature restaurant. The rationale behind this website redesign stems from the imperative to consolidate the digital representation of Famwood's diverse business segments, which were formerly distributed across distinct websites. This initiative is directed towards cultivating a coherent and seamless user experience, thereby encompassing Famwood's entire spectrum of activities within a unified online framework."
         ],
         "lists": null,
-        "diagram": "02.png",
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "Challenge",
+        "subtitle": null,
+        "paragraphs": [
+          "Prior to this redesign, Famwood grappled with maintaining two distinct websites, one dedicated to retail, and the other highlighting their restaurant. Furthermore, this transition period coincided with the phase-out of their furniture business – a challenge compounded by the company's existing reputation in that sector. The confusion among customers regarding the company's core identity and current focus was evident.",
+          "Delving into discussions with the business proprietor, the primary focal point emerges: the promotion and sale of tiny house products - Mobile Home, a new direction for Famwood. The restaurant, OnOnNature, is designed to be an initial touchpoint for the reservation process of guided tours for their tiny houses."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "Objective",
+        "subtitle": null,
+        "paragraphs": [
+          "At the forefront of this redesign stands the compelling objective of augmenting the volume of reservations for guided tours of the tiny houses. An ancillary aspiration involves establishing absolute clarity concerning the interrelationships between Famwood's divergent businesses, ultimately crystallizing the company's inherent value proposition."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "Branding",
+        "subtitle": null,
+        "paragraphs": [
+          "The redesign involved crafting brand guidelines, a vital task given Famwood's 40-year legacy. This history bolsters the tiny house product's value, symbolizing steadfastness akin to a foundation.",
+          "Typographically, Serif fonts lend a classic touch to titles, while Sans fonts accommodate content due to intricate Chinese characters, ensuring readability.",
+          "Regarding colors, Famwood's historic link is pivotal. Since 1984, red, linked to Famwood's Chinese Name meaning 'red house', has been emblematic. A deep Crimson shade was chosen, along with grayscale tones, enhancing the classic essence and design coherence."
+        ],
+        "lists": null,
+        "diagram": "02.svg",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "User Flow",
+        "subtitle": null,
+        "paragraphs": [
+          "The website's architecture comprises three distinct layers. Beginning with the first layer, the home page, which serves as the initial landing point for visitors. This section prominently features two key links, directing users to explore the “Mobile Home” and “OnOnNature” sections, constituting the second layer of the architecture.",
+          "Within these subsections, the third layer is introduced through additional links. For instance, within the \"Mobile Home\" page, visitors are provided with avenues to access more detailed specifications or proceed to the tour reservation page, facilitated by a strategically placed 'call to action' button. Furthermore, a dedicated call to action button is consistently positioned in the bottom left corner of the page, ensuring easy access to the reservation page."
+        ],
+        "lists": null,
+        "diagram": "03.svg",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": null,
+        "lists": null,
+        "diagram": "04.jpg",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": null,
+        "lists": null,
+        "diagram": "05.jpg",
         "photo": null,
         "video": null
       }
     ],
     "heroImage": "01.png",
-    "gallery": ["03.png", "04.png", "05.png", "06.png"],
+    "gallery": ["06.jpg", "07.png", "08.png", "09.png", "10.png"],
     "videoURL": null
   },
   {
@@ -415,7 +490,7 @@
         ],
         "lists": null,
         "diagram": null,
-        "photo": null,
+        "photo": "09.jpg",
         "video": null
       },
       {
@@ -440,8 +515,7 @@
       "05.jpg",
       "06.jpg",
       "07.jpg",
-      "08.jpg",
-      "09.jpg"
+      "08.jpg"
     ]
   },
   {
