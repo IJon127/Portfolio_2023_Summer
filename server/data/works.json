@@ -4,6 +4,8 @@
     "featured": true,
     "color": "purple",
     "thumbnail": "01.png",
+    "heroImage": "01.png",
+    "gallery": null,
     "info": {
       "title": "Hedonomic Yeshi",
       "subtitle": "An Immersive VR Night Market Game",
@@ -13,8 +15,6 @@
       "time": "Winter 2022",
       "location": "New York, U.S."
     },
-    "heroImage": "01.png",
-    "gallery": null,
     "content": [
       {
         "title": null,
@@ -203,6 +203,8 @@
     "featured": true,
     "color": "brown",
     "thumbnail": "01.png",
+    "heroImage": "01.png",
+    "gallery": ["06.jpg", "07.png", "08.png", "09.png", "10.png"],
     "info": {
       "title": "Famwood Website",
       "subtitle": "Official Website Re-design",
@@ -290,16 +292,28 @@
         "photo": null,
         "video": null
       }
-    ],
-    "heroImage": "01.png",
-    "gallery": ["06.jpg", "07.png", "08.png", "09.png", "10.png"],
-    "videoURL": null
+    ]
   },
   {
     "name": "bun_in_the_oven",
     "featured": true,
     "color": "teal",
     "thumbnail": "08.png",
+    "heroImage": "08.png",
+    "gallery": [
+      "01.png",
+      "02.jpg",
+      "03.png",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.png",
+      "09.png",
+      "10.png",
+      "11.jpg",
+      "12.jpg"
+    ],
     "info": {
       "title": "Bun in the Oven",
       "subtitle": "The Dough of Life:  A Yeasty Metaphor for the Journey of Pregnancy",
@@ -341,7 +355,7 @@
           "The interactive installation is designed as a baking game, featuring a real toaster oven with the Pepper's ghost effect integrated inside. This, along with various game elements, guides participants through the process. The project is developed using Unity and an Arduino microcontroller, creating a comprehensive experience that reveals the metaphor behind the game. The visual theme combines the aesthetics of an operating room and an industrial kitchen, emphasizing the connection between the medical and baking aspects of the project."
         ],
         "lists": null,
-        "diagram": null,
+        "diagram": "14.png",
         "photo": null,
         "video": null
       },
@@ -358,21 +372,6 @@
         "photo": null,
         "video": "https://player.vimeo.com/video/826412535?h=c23014a39b"
       }
-    ],
-    "heroImage": "01.png",
-    "gallery": [
-      "01.png",
-      "02.jpg",
-      "03.png",
-      "04.jpg",
-      "05.jpg",
-      "06.jpg",
-      "07.jpg",
-      "08.png",
-      "09.png",
-      "10.png",
-      "11.jpg",
-      "12.jpg"
     ]
   },
   {
@@ -380,6 +379,8 @@
     "featured": null,
     "color": "teal",
     "thumbnail": "01.png",
+    "heroImage": "01.png",
+    "gallery": ["02.png", "03.png", "04.png", "05.png"],
     "info": {
       "title": "Invisible Worlds",
       "subtitle": "The Waiting Area of the Invisible Worlds Exhibition at AMNH",
@@ -403,8 +404,30 @@
         "video": null
       },
       {
-        "title": null,
-        "subtitle": "Credits",
+        "title": "Colors",
+        "subtitle": null,
+        "paragraphs": [
+          "The pre-show gallery is divided into four distinctive sections – DNA, Ecosystem, Food Web, and Communications. These segments are thoughtfully curated, employing distinct color palettes to evoke specific emotions. For instance, the DNA section uses teals and purples, symbolizing genetic mysteries. Similarly, the ecosystem utilizes various shades of green to represent natural harmony."
+        ],
+        "lists": null,
+        "diagram": "06.svg",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "Particle System",
+        "subtitle": null,
+        "paragraphs": [
+          "Upon entering, visitors are immersed in a captivating interplay of lights and colors, drawn to ribbon-shaped projection canvases within each section. These canvases utilize projection mapping technology, creating dynamic backdrops that bring visual narratives to life. Accompanying each canvas are interactive kiosks, offering touch-screen interfaces that facilitate deeper exploration."
+        ],
+        "lists": null,
+        "diagram": "07.jpg",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "Credits",
+        "subtitle": null,
         "paragraphs": null,
         "lists": [
           "American Museum of Natural History",
@@ -415,18 +438,25 @@
         "photo": null,
         "video": null
       }
-    ],
-    "heroImage": "01.png",
-    "supportVideoURL": null,
-    "supportImages": null,
-    "gallery": ["02.png", "03.png", "04.png", "05.png"],
-    "videoURL": null
+    ]
   },
   {
     "name": "all_colors_are_in_the_lights",
     "featured": null,
     "color": "pink",
     "thumbnail": "10.jpg",
+    "heroImage": "10.jpg",
+    "gallery": [
+      "10.jpg",
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg"
+    ],
     "info": {
       "title": "All Colors are in the Lights",
       "subtitle": "National Taichung Theater: IMAGE Theater",
@@ -504,10 +534,15 @@
         "photo": null,
         "video": null
       }
-    ],
-    "heroImage": "10.jpg",
+    ]
+  },
+  {
+    "name": "voice_printer",
+    "featured": null,
+    "color": "yellow",
+    "thumbnail": "01.jpg",
+    "heroImage": "01.jpg",
     "gallery": [
-      "10.jpg",
       "01.jpg",
       "02.jpg",
       "03.jpg",
@@ -516,13 +551,7 @@
       "06.jpg",
       "07.jpg",
       "08.jpg"
-    ]
-  },
-  {
-    "name": "voice_printer",
-    "featured": null,
-    "color": "yellow",
-    "thumbnail": "01.jpg",
+    ],
     "info": {
       "title": "Voice Printer",
       "subtitle": "Speak, sing, hum into the Voice Printer, and catch the moment.",
@@ -545,17 +574,6 @@
         "photo": null,
         "video": "https://player.vimeo.com/video/830731581?h=951fb9980f"
       }
-    ],
-    "heroImage": "01.jpg",
-    "gallery": [
-      "01.jpg",
-      "02.jpg",
-      "03.jpg",
-      "04.jpg",
-      "05.jpg",
-      "06.jpg",
-      "07.jpg",
-      "08.jpg"
     ]
   },
   {
@@ -563,6 +581,8 @@
     "featured": null,
     "color": "purple",
     "thumbnail": "01.jpg",
+    "heroImage": "02.png",
+    "gallery": ["02.png", "03.jpg", "04.jpg"],
     "info": {
       "title": "Zooba Battle",
       "subtitle": "Playful Communication for Serious Research",
@@ -586,9 +606,7 @@
         "photo": null,
         "video": "https://player.vimeo.com/video/785930738?h=95b311e0ef&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
       }
-    ],
-    "heroImage": "02.png",
-    "gallery": ["02.png", "03.jpg", "04.jpg"]
+    ]
   },
   {
     "name": "under_the_water",
