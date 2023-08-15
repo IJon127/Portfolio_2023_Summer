@@ -13,7 +13,7 @@ function Hero() {
           transition={{ type: "spring", duration: 1 }}
         >
           <h2 className="hero__text">👋, I am I-Jon Hsieh.</h2>
-          <h2 className="hero__text">A designer and developer who made...</h2>
+          <h2 className="hero__text">A designer and developer who makes...</h2>
         </motion.div>
         <motion.h1
           className="hero__hero-text"
