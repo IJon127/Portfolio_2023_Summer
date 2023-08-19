@@ -295,8 +295,74 @@
     ]
   },
   {
-    "name": "bun_in_the_oven",
+    "name": "invisible_worlds",
     "featured": true,
+    "color": "teal",
+    "thumbnail": "01.png",
+    "heroImage": "01.png",
+    "gallery": ["02.png", "03.png", "04.png", "05.png"],
+    "info": {
+      "title": "Invisible Worlds",
+      "subtitle": "The Waiting Area of the Invisible Worlds Exhibition at AMNH",
+      "type": "VFX & Projection Mapping",
+      "team": null,
+      "company": "American Museum of Natural History",
+      "time": "Spring 2023",
+      "location": "New York, U.S."
+    },
+    "content": [
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "The Invisible Worlds project takes place within the esteemed American Museum of Natural History, located in bustling New York City. This visionary endeavor provides a platform for visitors to embark on an immersive journey. Before experiencing this extraordinary adventure, guests are invited to explore the profound themes that connect life on Earth across vast distances, diverse species, and billions of years.",
+          "In this captivating space, my role centers around crafting mesmerizing particle systems. These creations enhance the immersive projections and interactive kiosks, captivating and engaging visitors in thought-provoking experiences. I also contribute to the interactive medium through projection mapping implementation."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "Colors",
+        "subtitle": null,
+        "paragraphs": [
+          "The pre-show gallery is divided into four distinctive sections – DNA, Ecosystem, Food Web, and Communications. These segments are thoughtfully curated, employing distinct color palettes to evoke specific emotions. For instance, the DNA section uses teals and purples, symbolizing genetic mysteries. Similarly, the ecosystem utilizes various shades of green to represent natural harmony."
+        ],
+        "lists": null,
+        "diagram": "06.svg",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "Particle System",
+        "subtitle": null,
+        "paragraphs": [
+          "Upon entering, visitors are immersed in a captivating interplay of lights and colors, drawn to ribbon-shaped projection canvases within each section. These canvases utilize projection mapping technology, creating dynamic backdrops that bring visual narratives to life. Accompanying each canvas are interactive kiosks, offering touch-screen interfaces that facilitate deeper exploration."
+        ],
+        "lists": null,
+        "diagram": "07.jpg",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": "Credits",
+        "subtitle": null,
+        "paragraphs": null,
+        "lists": [
+          "American Museum of Natural History",
+          "AMNH Interactive Media Team",
+          "Hayeon Hwang"
+        ],
+        "diagram": null,
+        "photo": null,
+        "video": null
+      }
+    ]
+  },
+  {
+    "name": "bun_in_the_oven",
+    "featured": null,
     "color": "teal",
     "thumbnail": "08.png",
     "heroImage": "08.png",
@@ -371,72 +437,6 @@
         "diagram": null,
         "photo": null,
         "video": "https://player.vimeo.com/video/826412535?h=c23014a39b"
-      }
-    ]
-  },
-  {
-    "name": "invisible_worlds",
-    "featured": null,
-    "color": "teal",
-    "thumbnail": "01.png",
-    "heroImage": "01.png",
-    "gallery": ["02.png", "03.png", "04.png", "05.png"],
-    "info": {
-      "title": "Invisible Worlds",
-      "subtitle": "The Waiting Area of the Invisible Worlds Exhibition at AMNH",
-      "type": "VFX & Projection Mapping",
-      "team": null,
-      "company": "American Museum of Natural History",
-      "time": "Spring 2023",
-      "location": "New York, U.S."
-    },
-    "content": [
-      {
-        "title": null,
-        "subtitle": null,
-        "paragraphs": [
-          "The Invisible Worlds project takes place within the esteemed American Museum of Natural History, located in bustling New York City. This visionary endeavor provides a platform for visitors to embark on an immersive journey. Before experiencing this extraordinary adventure, guests are invited to explore the profound themes that connect life on Earth across vast distances, diverse species, and billions of years.",
-          "In this captivating space, my role centers around crafting mesmerizing particle systems. These creations enhance the immersive projections and interactive kiosks, captivating and engaging visitors in thought-provoking experiences. I also contribute to the interactive medium through projection mapping implementation."
-        ],
-        "lists": null,
-        "diagram": null,
-        "photo": null,
-        "video": null
-      },
-      {
-        "title": "Colors",
-        "subtitle": null,
-        "paragraphs": [
-          "The pre-show gallery is divided into four distinctive sections – DNA, Ecosystem, Food Web, and Communications. These segments are thoughtfully curated, employing distinct color palettes to evoke specific emotions. For instance, the DNA section uses teals and purples, symbolizing genetic mysteries. Similarly, the ecosystem utilizes various shades of green to represent natural harmony."
-        ],
-        "lists": null,
-        "diagram": "06.svg",
-        "photo": null,
-        "video": null
-      },
-      {
-        "title": "Particle System",
-        "subtitle": null,
-        "paragraphs": [
-          "Upon entering, visitors are immersed in a captivating interplay of lights and colors, drawn to ribbon-shaped projection canvases within each section. These canvases utilize projection mapping technology, creating dynamic backdrops that bring visual narratives to life. Accompanying each canvas are interactive kiosks, offering touch-screen interfaces that facilitate deeper exploration."
-        ],
-        "lists": null,
-        "diagram": "07.jpg",
-        "photo": null,
-        "video": null
-      },
-      {
-        "title": "Credits",
-        "subtitle": null,
-        "paragraphs": null,
-        "lists": [
-          "American Museum of Natural History",
-          "AMNH Interactive Media Team",
-          "Hayeon Hwang"
-        ],
-        "diagram": null,
-        "photo": null,
-        "video": null
       }
     ]
   },
@@ -613,6 +613,8 @@
     "featured": null,
     "color": "purple",
     "thumbnail": "01.png",
+    "heroImage": "01.png",
+    "gallery": ["02.png", "03.jpg", "04.jpg"],
     "info": {
       "title": "Under the Water",
       "subtitle": "Look Up! Is It the Sky or the Water?",
@@ -635,15 +637,15 @@
         "photo": null,
         "video": "https://player.vimeo.com/video/785708899?h=21657481bc&badge=0&autopause=0&player_id=0&app_id=58479/embed"
       }
-    ],
-    "heroImage": "01.png",
-    "gallery": ["02.png", "03.jpg", "04.jpg"]
+    ]
   },
   {
     "name": "tree_shadow_lamp",
     "featured": null,
     "color": "blue",
     "thumbnail": "01.jpg",
+    "heroImage": "01.jpg",
+    "gallery": ["01.jpg", "02.jpg"],
     "info": {
       "title": "Tree Shadow Lamp",
       "subtitle": "Meditation Roly-poly Lamp",
@@ -666,15 +668,15 @@
         "photo": null,
         "video": "https://player.vimeo.com/video/785711175?h=06fc946c4c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
       }
-    ],
-    "heroImage": "01.jpg",
-    "gallery": ["01.jpg", "02.jpg"]
+    ]
   },
   {
     "name": "finger_spray",
     "featured": null,
     "color": "pink",
     "thumbnail": "03.jpg",
+    "heroImage": "01.jpg",
+    "gallery": ["03.jpg", "04.jpg"],
     "info": {
       "title": "Finger Spray",
       "subtitle": "Digital Painting Tool for Art Therapy",
@@ -707,15 +709,15 @@
         "photo": null,
         "video": null
       }
-    ],
-    "heroImage": "01.jpg",
-    "gallery": ["03.jpg", "04.jpg"]
+    ]
   },
   {
     "name": "handheld_fireplace",
     "featured": null,
     "color": "green",
     "thumbnail": "01.jpg",
+    "heroImage": "01.jpg",
+    "gallery": ["02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg"],
     "info": {
       "title": "Handheld Fireplace",
       "subtitle": "Fireside Glow: Portable Table Lamp Evoking Warmth and Comfort",
@@ -738,15 +740,15 @@
         "photo": null,
         "video": "https://player.vimeo.com/video/829584697?h=7b5baece7a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
       }
-    ],
-    "heroImage": "01.jpg",
-    "gallery": ["02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg"]
+    ]
   },
   {
     "name": "salt_deconstructing_stool",
     "featured": null,
     "color": "teal",
     "thumbnail": "01.jpg",
+    "heroImage": "01.jpg",
+    "gallery": ["02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg"],
     "info": {
       "title": "Salt-deconstructing Stool",
       "subtitle": "Illuminating Winter Deicing Issues through Outdoor Lighting Furniture",
@@ -769,15 +771,15 @@
         "photo": null,
         "video": null
       }
-    ],
-    "heroImage": "01.jpg",
-    "gallery": ["02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg"]
+    ]
   },
   {
     "name": "knit_night_knight_lamp",
     "featured": null,
     "color": "purple",
     "thumbnail": "03.jpg",
+    "heroImage": "03.jpg",
+    "gallery": ["01.jpg", "02.jpg", "03.jpg", "04.jpg"],
     "info": {
       "title": "Knit, Night, Knight Lamp",
       "subtitle": "An Eye-Safeguarding Bedside Companion with Philips Hue Integration",
@@ -800,8 +802,134 @@
         "photo": null,
         "video": "https://player.vimeo.com/video/829279467?h=e27b8faa39&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
       }
+    ]
+  },
+  {
+    "name": "ononnature",
+    "featured": null,
+    "color": "yellow",
+    "thumbnail": "01.jpg",
+    "heroImage": "11.jpg",
+    "gallery": [
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg"
     ],
-    "heroImage": "03.jpg",
-    "gallery": ["01.jpg", "02.jpg", "03.jpg", "04.jpg"]
+    "info": {
+      "title": "OnOnNature",
+      "subtitle": "Famwood Flagship Store and Restaurant",
+      "type": "Architecture",
+      "team": null,
+      "company": "Studiobase Architects",
+      "time": "2014 - 2018",
+      "location": "Taichung City, Taiwan"
+    },
+    "content": [
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "This project can be divided to two parts - main building and outdoor exhibit area. The main building combines three functions; a restaurant, guesthouse and office. Likewise, the outdoor area is organized to display \"Mobile Tiny House\", the main product of Famwood.",
+          "The site is located alongside a well-known tourist bicycle path in Taichung city. In order to attract rapidly passing tourists, the facade of the main building is extended by wooden structure. Meanwhile, the wooden columns constitute a fence of the site. The restaurant is the only part opened to the public. It has been lifted up to the second floor. Then customers in the restaurant can have great view of the bicycle path."
+        ],
+        "lists": null,
+        "diagram": "10.jpg",
+        "photo": null,
+        "video": null
+      }
+    ]
+  },
+  {
+    "name": "the_nest",
+    "featured": null,
+    "color": "brown",
+    "thumbnail": "01.jpg",
+    "heroImage": "02.jpg",
+    "gallery": null,
+    "info": {
+      "title": "The Nest",
+      "subtitle": "Shelter School - Re School 2018 Architecture Competition",
+      "type": "Architecture",
+      "team": ["Ling Lee"],
+      "company": null,
+      "time": "Summer 2018",
+      "location": "Taiwan"
+    },
+    "content": [
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "Earthquakes, typhoons and volcanoes constantly ravage coastal regions around the globe. Countless schools take the brunt of this destructive force, but simultaneously act as emergency operation centers and shelters after the disaster. Unfortunately, the collapse of this infrastructure hinders relief operations. In response to this potentially dire situation, we’ve developed a new system which can be quickly constructed with on-hand materials and readily transported to damaged environments.",
+          "Often the stricken area is inaccessible by vehicles, so aid organizations airdrop relief supplies by helicopter. Our design incorporates the containers and other transportation materials (sack bags, canvas, and mesh) as components of the construction.",
+          "The building is divided into three parts: first-floor load bearing walls, a second floor made of mesh, and a roof. The first floor utilizes two forms of wall: one constituted by bags filled with readily available mud, rubble or debris, the other composed of used bottles. These walls not only form space on the ground floor but are also erected to act as the structure supporting the mesh layer. Due to the unpredictability of aftershocks, the building design foregoes a heavy roof. Instead, the roof is made from the original canvas used to package emergency supplies."
+        ],
+        "lists": null,
+        "diagram": null,
+        "photo": "03.jpg",
+        "video": null
+      }
+    ]
+  },
+  {
+    "name": "rehabamboo",
+    "featured": null,
+    "color": "green",
+    "thumbnail": "01.jpg",
+    "heroImage": "01.jpg",
+    "gallery": ["04.jpg", "05.jpg", "06.jpg", "07.png"],
+    "info": {
+      "title": "RehaBamboo",
+      "subtitle": "Bamboo Habitat Rehab Institution",
+      "type": "Architecture",
+      "team": null,
+      "company": null,
+      "time": "2012 - 2013",
+      "location": "Taipei, Taiwan"
+    },
+    "content": [
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "RehaBAMBOO is an institution which provides a healing process for people who are struggling with drug abuse. It incorporates three different timelines into one project.",
+          "It starts with the medical and legal support of rehab patients, consisting of one week of intense medical watch, followed by six months of withdrawal care, and finally another six month program of security and recovering. The second timeline describes the life cycle of bamboo. In Taiwan, bamboo could take three years to grow into viable building material, and various preservation treatments take varying amounts of time. Lastly, a construction timeline is designed to integrate the former two phases, aligning the rehab treatment procedure with the cycle of nature."
+        ],
+        "lists": null,
+        "diagram": "02.jpg",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "Since studies have shown that the usual one-year rehab period is insufficient for a lasting withdrawal from material abuse, RehaBAMBOO proposes a three-year optional program for the rehab clients to self-build their temporal living units using bamboo.",
+          "The training and building process happens during their first six months of residence, in a controlled workshop environment. The self-built houses become the clients’ living quarters for the remaining time of their stay under minimal security care, while they gradually adapt themselves back to society. The three-year stay coincides with the natural decay of bamboo material (without intensive chemical preservation treatment). At the end of the rehab program, the bamboo houses would collapse and be destroyed to mark the clients completion of this difficult and life-changing phase."
+        ],
+        "lists": null,
+        "diagram": "08.jpg",
+        "photo": null,
+        "video": null
+      },
+      {
+        "title": null,
+        "subtitle": null,
+        "paragraphs": [
+          "RehaBAMBOO utilizes an existing 6-acre vacant site - a former military prison. About 20% of the site area is devoted to a medical and educational complex that provides ministration, care and training. Self-built houses compose about 40% of the site as a rehab village, while the rest of the area is devoted to the planting of the bamboo. The life and production of bamboo is studied and quantified as a parameter to organize the campus landscape: the planning area provides enough material for 300 living units to be build within a period of threes years. Water pools are also strategically designed and placed for preservation treatment and leisure.",
+          "With new bamboos planted continuously, and mature plants taken down as building material, RehaBAMBOO forms a self-sustainable building, landscape and construction cycle."
+        ],
+        "lists": null,
+        "diagram": "03.jpg",
+        "photo": null,
+        "video": null
+      }
+    ]
   }
 ]
